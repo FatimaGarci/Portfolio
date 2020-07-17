@@ -27,12 +27,11 @@ function Header() {
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"></link>
         <header className="title">About Me?</header>
         
-
+        {/* Life is good */}
         <section className="about-me" >
           <div className="column">
             <img src="https://img.icons8.com/dusk/64/000000/find-user-female.png" alt="girl" />
             </div>
-            
             <div className="column">
             <p>I'm a junior software engineer trained to be a full-stack developer. In the Road to Hire program, I advance my professionalism and technical skills. I am strongly motivated and determined on every project I am assigned,  I enjoy working in a team environment because it allows me to see how others would solve a problem. </p> </div>
         </section>
