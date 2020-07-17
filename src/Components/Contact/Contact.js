@@ -22,7 +22,7 @@ import '../Contact/Contact.css'
               </p>
             </div>
           </div>
-          <form id="contact-form" action="#">
+          <form id="contact-form" method="POST" action="https://formsubmit.co/fatima.r.lopez@outlook.com">
             <input placeholder="Name" name="name" type="text" required />
             <input placeholder="Email" name="email" type="email" required />
             <textarea placeholder="Message" type="text" name="message" />
