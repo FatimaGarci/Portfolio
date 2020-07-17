@@ -8,19 +8,20 @@
   }
   
   /* Social Media Links */
-/*   
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+   
+  #fa a {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
   }
   
-  .fa:hover {
+  #fa:hover {
     opacity: 0.9;
   }
   
-  .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
+   .fa-github-square, .fa-linkedin-square, .fa-instagram {
     color: #ffffff;
-  } */
+    padding-left: 10px;
+  } 

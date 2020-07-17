@@ -120,39 +120,6 @@
   #welcome-section .container h1 .line:last-child {
     margin-left: 2rem;
   }
-
-  .buttons a{
-    text-decoration: none;
-    background: #00a1ab;
-  }
-  
-  #welcome-section .container .buttons {
-    display: flex;
-    margin-top: 1rem;
-  }
-  
-  #welcome-section .container .buttons a,
-  #welcome-section .container .buttons a:visited {
-    width: 100%;
-    padding: 1rem;
-    color: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-  }
-  
-  #welcome-section .container .buttons a:hover,
-  #welcome-section .container .buttons a:active {
-    opacity: 0.6;
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 10px 100px -20px #e78ccf;
-    margin-top: 8px;
-  }
-  
-  #welcome-section .container .buttons a:first-child {
-    margin-right: 1rem;
-  }
   
   .line {
     display: block;
@@ -186,38 +153,101 @@
       width: 100%;
     }
   }
+  .arrow{
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-bottom: 12px solid #0D52BE;
+    border-right: 5px solid #0D52BE;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+
   
   #Home{
-    min-height: 110vh;
+    min-height: 100vh;
   }
   .title{
-    margin-bottom: 60px;
-      font-family: "Lobster", serif;
-      font-size: 80px;
-      text-align: center;
+    font-family: "Lobster", serif;
+    font-size: 80px;
+    text-align: center;
+}
+  .about-me{
+    border-color: #0D52BE;
+    border-width: 4.4px;
+    display: flex;
   }
-  
+  .column {
+    justify-content: flex-start ;
+    padding: 5px;
+  }
+.column p{
+  font-size: 22px;
+}
+  .column > img {
+    width: 110px;
+    /* padding-top: 10px; */
+  }
+
   .boxes {
       display: grid;
       grid-template-columns: auto auto auto;
       grid-gap: 0;
-      padding: 0 100px;
-      margin-left: 80px;
+      padding: 0 90px;
+      margin-left: 30px;
+      margin-bottom: 20px;
       
     }
     .box{
-      background-color: rgba(255, 255, 255, 0.8);
       text-align: center;
       font-size: 15px;
       border-radius: 3px 56px;
       border-style: double;
-      width: 300px;
-      height: 250px; 
+      border-width: 5px;
+      width: 338px;
+      height: 290px; 
     }
-    
+    .box h3{
+      font-family: "Lobster", serif;
+    }
+    .box p{
+      width: 90%;
+      padding-left: 6%;
+    }
      .box > img{
-       width: 95px;
-      padding-top: 20px;
+       width: 105px;
+      padding-top: 8px;
+    }
+    #blue{
+      border-color: #0D52BE;
+      border-width: 4.5px;
     }
   
   

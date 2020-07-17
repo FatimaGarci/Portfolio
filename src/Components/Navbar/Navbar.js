@@ -10,7 +10,7 @@ function Navbar() {
                 <nav>
                     <ul className="nav-links">
                         <li>
-                            <Link to="/home"> About</Link>
+                            <Link to="/home"> About Me</Link>
                         </li>
                         <li>
                             <Link to="/portfolio"> Portfolio </Link>
@@ -21,9 +21,9 @@ function Navbar() {
                         <li>
                             <a href="file:///Users/fatimagarcia/Downloads/Resume.pdf" title="about"> Resume</a>
                         </li>
-                    </ul>{" "}
-                </nav>{" "}
-            </header>{" "}
+                    </ul>
+                </nav>
+            </header>
         </div>
     )
 }
