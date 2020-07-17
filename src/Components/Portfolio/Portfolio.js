@@ -1,8 +1,9 @@
 import React from 'react';
-import './css/Portfolio.css'
+import '../Portfolio/Portfolio.css';
 
 function Portfolio() {
     return (
+        <div className="top">
         <section id="projects">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div className="projects-container">
@@ -170,6 +171,7 @@ function Portfolio() {
                 </div>
             </div>
         </section>
+        </div>
     );
 };
 
