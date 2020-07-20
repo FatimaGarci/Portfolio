@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Navbar/Navbar.css'
 import { Link } from 'react-router-dom';
+import Resume from './Resume/Resume.pdf';
 
 
 function Navbar() {
@@ -19,7 +20,7 @@ function Navbar() {
                             <Link to="/contact"> Contact </Link>
                         </li>
                         <li>
-                            <a href="file:///Users/fatimagarcia/Downloads/Resume.pdf" title="about"> Resume</a>
+                            <a href={Resume} target="_blank" rel="noopener noreferrer" title="about"> Resume</a>
                         </li>
                     </ul>
                 </nav>

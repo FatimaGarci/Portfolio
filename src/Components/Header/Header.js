@@ -41,16 +41,16 @@ function Header() {
           <div className="box">
             <img src="https://img.icons8.com/dusk/64/000000/resume.png" alt="personal paper" />
             <h3>Skills</h3>
-            <p>HTML, CSS, JavaScrip, React, NodeJS, Npm, and MongoDB & MySql.</p> <br />
-            <p> Time management,  Dedicated & determined Team player,  Problem Solving,  and Respectful. <br /> GitHub</p>
+            <p>HTML, CSS, JavaScrip, React, NodeJS, Npm, and MongoDB & MySql</p> GitHub. <br />
+            <p> Time management,  Dedicated & determined Team player,  Problem Solving,  and Respectful. </p>
           </div>
           <div className="box" id="blue" >
-            <img src="https://img.icons8.com/dusk/64/000000/code-file.png" alt="code" />
+            <img src="https://img.icons8.com/dusk/64/000000/code-file.png" alt="code" /> <br />
             <h3>Coding</h3>
             <p>I didn’t see myself in the Technical Industry before creating my first website I was  I found out that I really enjoyed coding and creating websites and that I was growing a passion for it, so after creating a website I always felt proud of myself and I want to keep having that feeling.</p>
           </div>
           <div className="box">
-            <img src="https://img.icons8.com/dusk/64/000000/goal.png" alt="darts" />
+            <img src="https://img.icons8.com/dusk/64/000000/goal.png" alt="darts" /> <br />
             <h3>Goal</h3>
             <p>I want to be the go-to person in the company as a full-stack developer, I also want to be assigned on a bigger projects and be able to mentor people to help and guide them in the right path.</p>
           </div>
